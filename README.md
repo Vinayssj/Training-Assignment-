@@ -3,7 +3,7 @@ This repository contains a collection of web development assignments focused on 
 # Projects
 1. Amazon Homepage Clone
 2. Student Admission Form
-#Technologies Used
+# Technologies Used
 HTMl5
 # Created by
 Vinay Sharma
