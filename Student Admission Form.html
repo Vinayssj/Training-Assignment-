@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Admission Form</title>
+</head>
+<body> 
+  <form>
+    <fieldset>
+      <legend><h1>Student Admission Form</h1></legend>
+      <fieldset>
+        <legend><h2>Personal Information</h2></legend>
+        Name *
+        <input type="text" name="name" placeholder="First name">
+        <input type="text" name="name" placeholder="Last name">
+        <br>
+        Age *
+        <input type="number" name="age" min="1" max="120" placeholder="e.g., 18" >
+        <br>
+        Gender * 
+        &nbsp;
+        Male:
+        <input type="radio" name="gender">
+        Female:
+        <input type="radio" name="gender">
+        Other:
+        <input type="radio" name="gender">
+        <br>
+        Date of Birth *
+        <input type="date" name="dob" >
+      </fieldset>
+      <fieldset>
+        <legend><h2>Contact & Address</h2></legend>
+        Email *
+        <input type="email" name="email" placeholder="abc@gamil.com" >
+        <br>
+        Contact Number *
+        <input type="tel" name="contact" placeholder="e.g., +91 9876543210" >
+        <br>
+        Address *
+        <input type="text" name="Add" placeholder="Street, City, State, PIN" >
+      </fieldset>
+      <fieldset>
+        <legend><h2>Academic Details</h2></legend>
+        Course Selection *
+        <select name="course">
+        <option>Select a course</option>
+        <option>BSc Computer Science</option>
+        <option>BCom</option>
+        <option>BA</option>
+        <option>BTech</option>
+        <option>BCA</option>
+        <option>Other</option>
+        </select>
+        <br>
+        Previous Qualification *
+        <input type="text" name="qualification" placeholder="e.g., High School (12th)" >
+        <br>
+        Percentage / Marks *
+        <input type="number" name="marks" min="0" max="100" step="0.01" placeholder="e.g., 87.5" >
+        <br>
+        Upload Photo *
+        <input type="file" name="photo">Allowed formats: JPG, PNG. Max 2MB.
+      </fieldset>
+      <button type="submit">Submit Application</button>
+    </fieldset>
+  </form>
+</body>
+</html>
